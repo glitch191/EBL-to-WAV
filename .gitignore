@@ -1,0 +1,21 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Build output (build.py / PyInstaller)
+build/
+dist/
+*.spec
+
+# Local test material (sample banks are usually copyrighted: do not commit them)
+*.exb
+*.ebl
+*.wav
+*.flac
+*.zip
+*.7z
+
+# Local handoff notes for Claude sessions (describe the owner's PC: keep them out of the repo)
+HANDOFF.md
